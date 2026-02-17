@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prathna Mobile Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4fpx 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #d81b60, #1e3c72);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .header p {
+            margin-top: 8px;
+            font-size: 16px;
+        }
+
+        .content {
+            padding: 30px 20px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1e3c72;
+        }
+
+        .brands span {
+            display: inline-block;
+            background: #f1f1f1;
+            padding: 8px 14px;
+            border-radius: 20px;
+            margin: 6px;
+            font-weight: bold;
+        }
+
+        .contact-box {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.8;
+        }
+
+        .footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #1e88e5;
+            text-decoration: none;
+        }
+
+        /* Floating Buttons */
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 999;
+        }
+
+        .call-btn, .whatsapp-btn, .maps-btn {
+            padding: 14px 18px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white;
+        }
+
+        .call-btn {
+            background: #ff5722;
+        }
+
+        .call-btn:hover {
+            background: #e64a19;
+        }
+
+        .whatsapp-btn {
+            background: #25D366;
+        }
+
+        .whatsapp-btn:hover {
+            background: #1ebe5d;
+        }
+
+        .maps-btn {
+            background: #4285F4;
+        }
+
+        .maps-btn:hover {
+            background: #357ae8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <h1>PRATHNA MOBILE SOLUTIONS</h1>
+        <p>Mobile & Laptop Repairing Experts</p>
+    </div>
+
+    <div class="content">
+
+        <div class="section">
+            <h2>Our Services</h2>
+            <p>
+                All Types of <strong>Mobile & Laptop Repairing</strong><br>
+                All <strong>Original Accessories</strong> Available
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Brands We Repair</h2>
+            <div class="brands">
+                <span>Dell</span>
+                <span>HP</span>
+                <span>Lenovo</span>
+                <span>Samsung</span>
+                <span>Acer</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact Details</h2>
+            <div class="contact-box">
+                <strong>Contact Person:</strong> Sameer Kumar<br>
+                <strong>Phone / WhatsApp:</strong> <a href="tel:9818438913">9818438913</a><br>
+                <strong>Email:</strong> <a href="mailto:sameer.mashi1992@gmail.com">sameer.mashi1992@gmail.com</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Shop Address</h2>
+            <p>
+                B-3, Kushal Bazar,<br>
+                32–33 Nehru Place,<br>
+                New Delhi – 110019
+            </p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        © 2026 Prathna Mobile Solutions. All Rights Reserved.
+    </div>
+
+</div>
+
+<!-- Floating Action Buttons -->
+<div class="floating-buttons">
+
+    <!-- Call Now -->
+    <a class="call-btn" href="tel:9818438913">
+        📞 Call Now
+    </a>
+
+    <!-- WhatsApp -->
+    <a class="whatsapp-btn"
+       href="https://wa.me/919818438913?text=Hello%20Prathna%20Mobile%20Solutions,%20I%20need%20repair%20service"
+       target="_blank">
+        💬 WhatsApp Chat
+    </a>
+
+    <!-- Google Maps -->
+    <a class="maps-btn"
+       href="https://www.google.com/maps/search/?api=1&query=Kushal+Bazar,+Nehru+Place,+New+Delhi+110019"
+       target="_blank">
+        📍 Open in Google Maps
+    </a>
+
+</div>
+
+</body>
+</html>
