@@ -5,6 +5,10 @@
     <title>Prathna Mobile Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.ico">
+
     <style>
         body {
             margin: 0;
@@ -18,25 +22,32 @@
             margin: 40px auto;
             background: #ffffff;
             border-radius: 10px;
-            box-shadow: 0 4fpx 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* fixed typo */
             overflow: hidden;
         }
 
         .header {
-            background: linear-gradient(135deg, #d81b60, #1e3c72);
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
             color: white;
-            padding: 30px 20px;
+            padding: 40px 20px;
             text-align: center;
+        }
+
+        .logo {
+            width: 160px;
+            margin-bottom: 15px;
         }
 
         .header h1 {
             margin: 0;
-            font-size: 32px;
+            font-size: 28px;
+            letter-spacing: 1px;
         }
 
         .header p {
             margin-top: 8px;
             font-size: 16px;
+            opacity: 0.9;
         }
 
         .content {
@@ -106,29 +117,15 @@
             color: white;
         }
 
-        .call-btn {
-            background: #ff5722;
-        }
+        .call-btn { background: #ff5722; }
+        .call-btn:hover { background: #e64a19; }
 
-        .call-btn:hover {
-            background: #e64a19;
-        }
+        .whatsapp-btn { background: #25D366; }
+        .whatsapp-btn:hover { background: #1ebe5d; }
 
-        .whatsapp-btn {
-            background: #25D366;
-        }
+        .maps-btn { background: #4285F4; }
+        .maps-btn:hover { background: #357ae8; }
 
-        .whatsapp-btn:hover {
-            background: #1ebe5d;
-        }
-
-        .maps-btn {
-            background: #4285F4;
-        }
-
-        .maps-btn:hover {
-            background: #357ae8;
-        }
     </style>
 </head>
 <body>
@@ -136,6 +133,8 @@
 <div class="container">
 
     <div class="header">
+        <!-- Logo Added Here -->
+        <img src="logo.jpg" alt="Prathna Mobile Solutions Logo" class="logo">
         <h1>PRATHNA MOBILE SOLUTIONS</h1>
         <p>Mobile & Laptop Repairing Experts</p>
     </div>
@@ -165,8 +164,8 @@
             <h2>Contact Details</h2>
             <div class="contact-box">
                 <strong>Contact Person:</strong> Sameer Kumar<br>
-                <strong>Phone / WhatsApp:</strong> <a href="tel:9818438913">9818438913</a><br>
-                <strong>Email:</strong> <a href="mailto:sameer.mashi1992@gmail.com">sameer.mashi1992@gmail.com</a>
+                <strong>Phone / WhatsApp:</strong> <a href="tel:9818438913">+91-9818438913</a><br>
+                <strong>Email:</strong> <a href="mailto:prathnamobilesolutions@gmail.com">prathnamobilesolutions@gmail.com</a>
             </div>
         </div>
 
@@ -190,19 +189,16 @@
 <!-- Floating Action Buttons -->
 <div class="floating-buttons">
 
-    <!-- Call Now -->
     <a class="call-btn" href="tel:9818438913">
         📞 Call Now
     </a>
 
-    <!-- WhatsApp -->
     <a class="whatsapp-btn"
        href="https://wa.me/919818438913?text=Hello%20Prathna%20Mobile%20Solutions,%20I%20need%20repair%20service"
        target="_blank">
         💬 WhatsApp Chat
     </a>
 
-    <!-- Google Maps -->
     <a class="maps-btn"
        href="https://www.google.com/maps/search/?api=1&query=Kushal+Bazar,+Nehru+Place,+New+Delhi+110019"
        target="_blank">
